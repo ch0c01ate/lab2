@@ -1,6 +1,6 @@
 import pandas
 
-def get_locations():
+def parse_locations():
     data_voc = {}
 
     data = pandas.read_csv("locations.csv", error_bad_lines=False)
